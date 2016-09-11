@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web);
 
 *{
 	padding:0;
@@ -6,7 +6,7 @@
 }
 
 body{
-	font-family: "Ubuntu", sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 	font-size: 100%;
 	background:#f8f8f8;
 }
