@@ -26,6 +26,23 @@ p{
 	text-align: center;
 }
 
+input {
+   
+    display: block;
+    margin-bottom : 20px;
+}
+  
+textarea {
+    display: block;
+    height: 123px;
+    width: 333px;
+}
+
+.form {
+    text-align: center;
+    display: inline-block;
+}
+
 .wrap{
 	max-width: 600px;
     font-size: 1.75em;
