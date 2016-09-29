@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VR ~ Virtual Reality</title>
+    <!-- Get jQuery -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+     <script>
+    $(function(){
+
+        $("#typed").typed({
+            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 30,
+            backDelay: 1800,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+    </script>
+    <link href="main.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    
+</head>
+<body>
+<div class="wrap">
+
+        <!--<div id="banner">
+        <img src="images/myname.png" alt="name banner">
+        </div>
+         <h1 class="h1">Welcome.</h1>-->
+
+
+        <div class="type-wrap">
+            <div id="typed-strings">
+                <span>VR ~ Virtual Reality</span> 
+                <!--<p>Unity3d</p>
+                <p>VR</p>
+                <p>Apps</p>-->
+            </div>
+
+
+            <span id="typed" style="white-space:pre;"></span>
+        </div>
+
+        <div class="links">
+        <a href="games.html">// Games</a> | <a href="vr.html">VR</a> | <a href="sites.html">Web Sites //</a>
+            
+        </div>
+
+
+        <div class="links">
+            <a href="thingsimade.html">Things I Made</a>  |  <a href="images/mrobleresume.pdf">Download Resume</a>  |  <a href="http://www.github.com/mroble">GitHub</a>  |   
+            <a href="http://www.twitter.com/MaureenRoble">Twitter</a> | <a href="sayhello.html">E-mail</a> 
+        </div>
+    </div>
+
+</body>
+</html>
