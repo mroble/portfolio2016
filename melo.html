@@ -1,0 +1,73 @@
+ <title>Melo The Umang Boy Video Game</title>
+    <!-- Get jQuery -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+
+     <script>
+    $(function(){
+
+        $("#typed").typed({
+            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 30,
+            backDelay: 1800,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	   <link href="main.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+	
+    
+</head>
+<body>
+<div class="wrap">
+
+<div class="type-wrap">
+            <div id="typed-strings">
+                <span>Melo The Umang Boy</span>
+                <p>A Collaboration With Sari-Sari Storybooks</p> 
+            </div>
+            <span id="typed" style="white-space:pre;"></span>
+        </div>
+
+<h5>Description</h5>
+<p>
+    <i>Melo The Umang Boy</i> is a 2D platformer video game collaboration with the publishing company, Sari-Sari Storybooks.  Sari-sari Storybooks is a children's book company which aims to preserve cultural and linguistic diversity in the Philippines through publishing children's books in lesser-represented languages of the archipelago. While the outward purpose of the game is to reinforce Ivatan vocabulary words covered in the book, the hidden purpose of the game is to help make learning about Filipino culture fun. In order to make the game as accessible to as many children as possible, we made the decision to make this a web game.
+</p>
+
+<h5>Technologies Used</h5>
+<p>Unity3d(v.5.4.1f), AffinityPhoto (graphics editing), C#, GitHub</p>
+
+<h5>Date Made</h5>
+<p>September 2016</p>
+
+<a href="#">Play Game</a> | <a href="#">Source Code on GitHub</a>
+
+
+
+    <div class="links">
+            <a href="thingsimade.html">Things I Made</a>  |  <a href="images/mrobleresume.pdf">Download Resume</a>  |  <a href="http://www.github.com/mroble">GitHub</a>  |   
+            <a href="http://www.twitter.com/MaureenRoble">Twitter</a> | <a href="sayhello.html">E-mail</a> 
+        </div>
+
+
+</div>
+</body>
