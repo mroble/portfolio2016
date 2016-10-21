@@ -59,6 +59,10 @@ textarea {
 	/*border:#CCC 1px solid; */
 }
 
+.big-image{
+    padding: 10px;
+}
+
 .links{
 	margin:20px 0;
 	font-size: 1.0em;
